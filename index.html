@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="kids, clothes">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Shorena Tchegelidze">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="fb:app_id" conect="facebook.com">
+    <meta property="og:url" content="https://sho-dot-com.github.io/Final-Project/index.html" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responcive.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+    <title>მთავარი გვერდი</title>
+  </head>
+  <header>
+  <body>
+    <div class="off-screen-menu">
+      <ul>
+        <li> <a href="index.html"> მთავარი გვერდი</a></li> 
+        <li><a href="Market.html">მაღაზია</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+        <input type="text" placeholder="Search..">
+    </div>
+      </ul>
+    </div>
+    <nav>
+      <a href="index.html"><img src="images/kids-zone-vector-cartoon-logo-260nw-624435218.png"></a>
+      <h1>საბავშვო ტანსაცმლის მაღაზია</h1>
+      
+      
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/Baby-Intelligence-Signs-Smart-Genius.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/istock-4306066-baby_custom-aee07650b312c1f240125b669c2aa92a7d36e73b-s1100-c50.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/5846ef56-c942-4be4-b912-d01312cc6233.png" style="width:100%">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+      
+    
+    <!-- animation -->
+    <section>
+      <!-- 1 example with positions -->
+      <div class="animation-block">
+          <img class="image-kid" src="images/baby-logo-vector.jpg" alt="kid"/>
+      </div>
+    </section>
+    <section>
+    <div class="bottom-div">
+      <div class="bottom-div-child">
+
+        <h5>რომპერი</h5>
+
+      
+      
+       <a href="Market.html"> <img src="images/3120492514.webp" alt="kids"/></a>
+        <p>ფასი: 35 ლარი</p>
+      </div>
+      <div class="bottom-div-child">
+        <h5>ბოდე</h5>
+        <img src="images/2058057354.webp" alt="kids" />
+
+        <p>ფასი: 10 ლარი</p>
+      </div>
+      <div class="bottom-div-child">
+        <h5>შარვალი</h5>
+        <img src="images/395917859.jpg" alt="kids" />
+        <p>ფასი: 30 ლარი</p>
+      </div>
+      <div class="bottom-div-child">
+        <h5>კაბა</h5>
+        <img src="images/2931606072.webp" alt="kids" />
+        <p>ფასი: 40 ლარი</p>
+      </section>
+      </div>
+    </div>
+    <section class="end1"> 
+    =======================================================================================================
+    
+        <h2>Join us</h2>
+      <form class="form-wraper" action="" id="formelement" method="post">
+        <div>
+          <input type="text" id="usernamefield" placeholder="username" />
+          <p class="error-text" id="error_username"></p>
+        </div>
+        <div>
+          <input type="email" placeholder="email" id="emailfield" />
+          <p id="error-email"></p>
+        </div>
+        <div>
+          <input type="password" placeholder="Password" id="passwordfield" />
+          <i class="fa-solid fa-eye" id="toggleIcon"></i>
+          <p class="error-text" id="error_passw"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="passw2"
+            id="passwordfiled2"
+            placeholder="Repeat Password" />
+         <p class="error-text" id="error_passw2"></p>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="male" />
+          <label for="male"> Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <p class="error-text" id="error_gender"></p>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="checkfield" />
+          <label for="checkfield">I agree terms and conditions</label>
+          <p class="error-text" id="error_agree"></p>
+        </div>
+        <button type="submit">Submit</button>
+        <div class="right-block-header">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          
+      </form>
+      </header>
+    <footer>
+      <div class="top" id="topIcon">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+     
+        
+       
+      </div>
+    </section>
+    </footer>
+    </main>
+   
+
+
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
